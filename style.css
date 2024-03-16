@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Product{
+    border: 5px solid black;
+    width: 770px;
+    height: 330px;
+}
+.product-header{
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(253, 106, 106);
+    font-style: italic;
+    color: aqua;
+}
+.pic{
+    margin-left: 0px;
+    padding: 0px;
+    
+}
+.price{
+    margin-left: 10px;
+    font-style: italic;
+}
+.shipping{
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 10px;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.des{
+    margin-left: 10px;
+}
+.info{
+    margin-left: 10px;
+}
+.color{
+    background-color: black;
+    height: 22px;
+    width: 22px;
+    border: 1px solid black;
+}
+.colors{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.color-green{
+background-color: green;
+}
+.color-blue{
+    background-color: blue;
+}
+.color-white{
+    background-color: white;
+}
+.color-red{
+    background-color: red;
+}
+.color-yellow{
+    background-color: yellow;
+}
+.details{
+    margin-left: 10px;
+    padding: 20px;
+    margin-bottom: 0px;
+
+}
+.list{
+    margin-top: 0px;
+}
+.det{
+    margin-bottom: 100px;
+    width: 250px;
+}
+.cart{
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+.cart :hover{
+background-color: white;
+color: black;
+font-weight: bold;
+}
+.image{
+    margin-left: 10px;
+}
+.para{
+display: flex;
+flex: 1;
+
+}
+.det{
+    margin-bottom: 0px;
+    flex: 1;
+}
+.article{
+    display: flex;
+    justify-content: space-between;
+}
